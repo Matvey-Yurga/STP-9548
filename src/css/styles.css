@@ -1,18 +1,23 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+
 /* Common styles */
-@import url('./reset.css');
+/* @import url('./reset.css'); */
 @import url('./base.css');
 @import url('./container.css');
 @import url('./animations.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
+@import url('./home.css');
 @import url('./badges.css');
-@import url('./back-link.css');
+@import url('./About-the-Game.css');
+@import url('./How-to-Play.css');
+@import url('./Puzzle-Gallery.css');
+@import url('./Game-Features.css');
+@import url('./Global-Landmarks.css');
+@import url('./Events.css');
+@import url('./Offline-Mode.css');
+@import url('./Who-It\'s-For.css');
+@import url('./FAQ.css');
+@import url('./Testimonials.css');
+@import url('./Contact.css');
 @import url('./footer.css');
