@@ -1,0 +1,183 @@
+/* ----------MOBILE VERSION---------- */
+.home-section {
+    width: 100%;
+    background-color: #fffcdb;
+    padding: 0 0 58px;
+}
+
+.container {
+    padding: 0;
+}
+
+/* -----CLOSE TITLE IMG BUTTON----- */
+.home-desctop-subtitle,
+.home-desctop-title,
+.home-wrapper-image,
+.home-desctop-link {
+    display: none;
+}
+
+/* -----FON----- */
+.home-wrapper-background {
+    width: 100%;
+    height: 568px;
+    background-image: url('../img/welcome-journey/mobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 442px;
+    margin-bottom: 50px;
+}
+
+/* ----------RETINA---------- */
+@media (min-resolution: 2x) {
+    .home-wrapper-background {
+        background-image: url('../img/welcome-journey/mobile@2x.png');
+    }
+}
+
+/* -----BUTTON----- */
+.home-link {
+    background-color: #fff;
+    width: 286px;
+    height: 67px;
+    border: 1px solid #054c3a;
+    border-radius: 8px;
+    margin: 0 auto;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.home-link:hover,
+.home-link:focus {
+    background-color: #ead14a;;
+}
+
+.home-link-img {
+    display: block;
+}
+
+.home-link-text {
+    color: #153f66;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+}
+
+.home-wrapper-text {
+    padding: 50px 16px 0;
+}
+
+/* -----TEXT----- */
+.home-title {
+    color: #1c5fdc;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.home-text {
+    font-family: "Karla", sans-serif;
+    color: #153f66;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* ----------DESCTOP VERSION---------- */
+@media only screen and (min-width: 1200px) {
+.home-section {
+    padding: 68px 0 64px;
+}
+
+.container {
+    padding: 0 80px;
+}
+
+/* ----------CLOSE MOBILE ELEMENT---------- */
+.home-title,
+.home-wrapper-background {
+    display: none;
+}
+
+.home-desctop-subtitle {
+    color: #eac64e;
+    display: block;
+    text-align: right;
+    font-size: 48px;
+}
+
+.home-desctop-title {
+    color: #1c5fdc;
+    display: block;
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 42px;
+}
+
+/* ----------POSITION NEW ELEMENT---------- */
+.home-wrapper-desctop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 124px;
+}
+
+.home-wrap-text {
+    display: block;
+    width: 407px;
+}
+
+.home-text {
+    margin-bottom: 66px;
+}
+
+/* ----------BUTTON---------- */
+.home-desctop-link {
+    background: #fff;
+    width: 331px;
+    height: 67px;
+    border: 1px solid #1c5fdc;
+    border-radius: 8px;
+    margin: 0 ;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.home-desctop-link:hover,
+.home-desctop-link:focus {
+    background-color: #ead14a;
+    ;
+}
+
+.home-wrapper-image {
+    display: block;
+    width: 508px;
+    height: 403px;
+    border: 3px solid #eac64e;
+    border-radius: 25px;
+    background-image: url('../img/welcome-journey/desctop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----------RETINA---------- */
+@media (min-resolution: 2x) {
+    .home-wrapper-image {
+        background-image: url('../img/welcome-journey/desctop@2x.png');
+    }
+}
+}
