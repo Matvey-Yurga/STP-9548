@@ -1,0 +1,68 @@
+/* ----------MOBILE VERSION---------- */
+.aboutgame-section {
+    width: 100%;
+    background-color: #153f66;
+    padding: 55px 0 92px;
+}
+
+.aboutgame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.aboutgame-wraper-images {
+    width: 288px;
+    height: 202px;
+    border: none;
+    border-radius: 15px;
+}
+
+.aboutgame-wraper-text {
+    width: 288px;
+}
+
+.aboutgame-title {
+    font-weight: 400;
+    font-size: 30px;
+    color: #fbe001;
+    margin-bottom: 18px;
+}
+
+.aboutgame-text {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fffcdb;
+}
+
+/* ----------DESCTOP VERSION---------- */
+
+@media only screen and (min-width:1200px) {
+.aboutgame-section {
+    padding: 66px 0;
+}
+
+.aboutgame-container {
+    flex-direction: row;
+    gap: 112px;
+}
+
+.aboutgame-wraper-images {
+    width: 420px;
+    height: 350px;
+}
+
+.aboutgame-wraper-text {
+    width: 508px;
+}
+
+.aboutgame-title {
+    font-size: 48px;
+    margin-bottom: 24px;
+    }
+}
+
