@@ -16,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Karla:wght@400;700;800&family=Work+Sans&display=swap" rel="stylesheet">
 
     <script type="module" crossorigin src="/STP-9548/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STP-9548/assets/index-DT4YrOU5.css">
+    <link rel="stylesheet" crossorigin href="/STP-9548/assets/index-uJl0S85v.css">
   </head>
   <body>
     <header class="main-header">
@@ -32,8 +32,8 @@
     <nav class="nav-header" data-visible="close">
       <button data-action="close" class="close-btn">✕</button>
       <div class="header-nav navin">
-        <a href="#">Home</a>
-        <a href="#">About the Game</a>
+        <a href="#home-section">Home</a>
+        <a href="#aboutgame-section">About the Game</a>
         <a href="#">How to Play</a>
         <a href="#">Puzzle Gallery</a>
         <a href="#">Game Features</a>
@@ -53,57 +53,76 @@
 
 
     <main>
-      <section class="home-section">
+      <section class="home-section" id="home-section">
     <div class="home-container container">
 
-        <h2 class="home-desctop-subtitle">Match3 Puzzle</h2>
-        <h1 class="home-desctop-title">Welcome to the Journey</h1>
+    <h2 class="home-desctop-subtitle">Match3 Puzzle</h2>
+    <h1 class="home-desctop-title">Welcome to the Journey</h1>
 
-        <div class="home-wrapper-background">
-            <a class="home-link"
-                href="https://play.google.com/store/apps/details?id=com.nstage.matchjourney&hl=en&gl=us "
-                target="_blank" title="Клікніть для переходу на гру">
-                    <img class="home-link-img" src="../img/welcome-journey/button-google-play.png" alt="Google Logo" width="42px" height="47px">
+    <div class="home-wrapper-background">
+        <a class="home-link"
+            href="https://play.google.com/store/apps/details?id=com.nstage.matchjourney&hl=en&gl=us "
+            target="_blank" title="Клікніть для переходу на гру">
+            <img class="home-link-img" src="../img/welcome-journey/button-google-play.png" alt="Google Logo" width="42px" height="47px">
+            <span class="home-link-text">Google Play</span>
+        </a>
+    </div>
+
+    <div class="home-wrapper-desctop">
+        <div class="home-wrap-text">
+            <h1 class="home-title">Welcome to the Journey</h1>
+            <p class="home-text">Turn your downtime into a globe-trotting puzzle adventure. 
+                Match Journey invites you to explore the world—one match at a time. 
+                With each completed puzzle, you unlock a breathtaking view of iconic destinations, from the Eiffel
+                Tower to the Great Wall of China. Whether you're looking for calm, challenge, or wanderlust, this game delivers it all.</p>
+            <a class="home-desctop-link"
+                href="https://play.google.com/store/apps/details?id=com.nstage.matchjourney&hl=en&gl=us " target="_blank"
+                title="Клікніть для переходу на гру">
+                <img class="home-link-img" src="../img/welcome-journey/button-google-play.png" alt="Google Logo" width="42px" height="47px">
                 <span class="home-link-text">Google Play</span>
             </a>
         </div>
-
-
-        <div class="home-wrapper-desctop">
-            <div class="home-wrap-text">
-                <h1 class="home-title">Welcome to the Journey</h1>
-                <p class="home-text">Turn your downtime into a globe-trotting puzzle adventure. Match Journey invites you to
-                    explore the world—one match at a
-                    time. With each completed puzzle, you unlock a breathtaking view of iconic destinations, from the Eiffel
-                    Tower to the
-                    Great Wall of China. Whether you're looking for calm, challenge, or wanderlust, this game delivers it
-                    all.</p>
             
-                <a class="home-desctop-link"
-                    href="https://play.google.com/store/apps/details?id=com.nstage.matchjourney&hl=en&gl=us " target="_blank"
-                    title="Клікніть для переходу на гру">
-                    <img class="home-link-img" src="../img/welcome-journey/button-google-play.png" alt="Google Logo" width="42px"
-                        height="47px">
-                    <span class="home-link-text">Google Play</span>
-                </a>
-            </div>
-            
-            <div class="home-wrapper-image"></div>
-        </div>
-
+        <div class="home-wrapper-image"></div>
+    </div>
     </div>
 </section>
-      <load src="./partials/About-the-Game.html">
-        <load src="./partials/How-to-Play.html">
-          <load src="./partials/Puzzle-Gallery.html">
-            <load src="./partials/Game-Features.html">
-              <load src="./partials/Global-Landmarks.html">
-                <load src="./partials/Events.html">
-                  <load src="./partials/Offline-Mode.html">
-                    <load src="./partials/Who-Its-For.html">
-                      <load src="./partials/FAQ.html">
-                        <load src="./partials/Testimonials.html">
-                          <load src="./partials/Contact.html">
+      <section class="aboutgame-section" id="aboutgame-section">
+    <div class="aboutgame-container container">
+        <div class="aboutgame-wraper-images">
+        <div class="aboutgame-wraper-images">
+            <picture>
+                <source srcset="../img/about-game/desctop@2x.png 2x, ../img/about-game/desctop.png 1x" media="(min-width: 1200px)">
+                <source srcset="../img/about-game/mobile@2x.png 2x, ../img/about-game/mobile.png 1x" media="(max-width: 1199px)">
+                <img class="about-game-img" src="../img/about-game/mobile.png" alt="About The Game">
+            </picture>
+        </div>
+        </div>
+        <div class="aboutgame-wraper-text">
+            <h2 class="aboutgame-title">About the Game</h2>
+            <p class="aboutgame-text">Match Journey is a match-3 puzzle game that rewards every victory with a
+                collectible surprise.
+                But instead of coins or jewels, you’re building a visual collection of the world’s most beautiful
+                places. Designed with calming audio, smooth controls, and carefully crafted levels, the game offers both
+                relaxation and motivation.
+                No rush, no stress—just rewarding gameplay and beautiful progress.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </main>
 
     
