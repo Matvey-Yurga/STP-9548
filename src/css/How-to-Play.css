@@ -1,0 +1,56 @@
+.how-to-play{
+    padding: 37px 0 48px 0;
+}
+.howtoPlay-ul{
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 16px;
+}
+.howToPlay-li{
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 16px;
+}
+.listHowP{
+    font-weight: 400;
+        font-size: 24px;
+        line-height: 1.25;
+        color: #153f66;
+}
+.howToPlay-h2{
+    font-weight: 400;
+        font-size: 30px;
+        color: #1c5fdc;
+        padding: 48px 0 24px 0;
+}
+.howToPlay-imgDesk {
+    display: none;
+}
+@media only screen and (min-width:1200px){
+    .howToPlay-imgMob{
+        display: none;
+    }
+    .how-to-play-wrapper{
+        display: flex;
+        gap: 128px;
+
+    }
+.howToPlay-h2{
+    padding: 0px;
+    font-size: 48px;
+    padding-bottom: 48px;
+}
+.how-to-play {
+    padding: 71px 0 41px 0;
+}
+.howtoPlay-ul{
+    gap: 32px;
+}
+.howToPlay-imgDesk{
+    display: block;
+}
+}
