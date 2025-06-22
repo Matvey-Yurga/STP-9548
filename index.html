@@ -22,7 +22,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Karla:wght@400;700;800&family=Work+Sans&display=swap" rel="stylesheet">
 
     <script type="module" crossorigin src="/STP-9548/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STP-9548/assets/index-CnkpNO3J.css">
+    <link rel="modulepreload" crossorigin href="/STP-9548/assets/vendor-rDS0Pw7F.js">
+    <link rel="stylesheet" crossorigin href="/STP-9548/assets/vendor-HdWFjXwp.css">
+    <link rel="stylesheet" crossorigin href="/STP-9548/assets/index-3FOArP5-.css">
   </head>
   <body>
     <header class="main-header">
@@ -42,7 +44,7 @@
         <a href="#aboutgame-section">About the Game</a>
         <a href="#">How to Play</a>
         <a href="#">Puzzle Gallery</a>
-        <a href="#">Game Features</a>
+        <a href="#features-section">Game Features</a>
         <a href="#">Global Landmarks</a>
       </div>
       <div class="header-nav">
@@ -95,7 +97,7 @@
 </section>
       <section class="aboutgame-section" id="aboutgame-section">
     <div class="aboutgame-container container">
-        <div class="aboutgame-wraper-images">
+
         <div class="aboutgame-wraper-images">
             <picture>
                 <source srcset="../img/about-game/desctop@2x.png 2x, ../img/about-game/desctop.png 1x" media="(min-width: 1200px)">
@@ -103,7 +105,7 @@
                 <img class="about-game-img" src="../img/about-game/mobile.png" alt="About The Game">
             </picture>
         </div>
-        </div>
+        
         <div class="aboutgame-wraper-text">
             <h2 class="aboutgame-title">About the Game</h2>
             <p class="aboutgame-text">Match Journey is a match-3 puzzle game that rewards every victory with a
@@ -212,8 +214,104 @@
   </div>
 </section>
 
-              
-      <load src="./partials/Game-Features.html">
+      <section class="gallery-puzzle">
+  <div class="container">
+    <div class="galleryPuzzle">
+      <h2 class="gallery-h2">Puzzle Gallery</h2>
+      <p class="gallery-p">
+        Your virtual scrapbook of travels. As you play, you'll
+        <br class="br-gallery" />
+        uncover and complete jigsaw-style puzzles of iconic
+        <br class="br-gallery" />
+        landmarks
+      </p>
+    </div>
+    <div class="swiper-container-wrapper">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="../img/puzzle-gallery/desctop-four.png"
+              alt="galleryImg"
+              srcset="../img/puzzle-gallery/desctop-four.png 1x, ../img/puzzle-gallery/desctop-four@2x.png 2x"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="../img/puzzle-gallery/desctop-one.png"
+              alt="galleryImg"
+              srcset="../img/puzzle-gallery/desctop-one.png 1x, ../img/puzzle-gallery/desctop-one@2x.png 2x"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="../img/puzzle-gallery/desctop-three.png"
+              alt="galleryImg"
+              srcset="../img/puzzle-gallery/desctop-three.png 1x, ../img/puzzle-gallery/desctop-three@2x.png 2x"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="../img/puzzle-gallery/desctop-two.png"
+              alt="galleryImg"
+              srcset="../img/puzzle-gallery/desctop-two.png 1x, ../img/puzzle-gallery/desctop-two@2x.png 2x"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="../img/puzzle-gallery/mobile.png"
+              alt="galleryImg"
+              srcset="../img/puzzle-gallery/mobile.png 1x, .../img/puzzle-gallery/mobile@2x.png 2x"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next">
+        <svg class="icon-gallery" width="20" height="20">
+          <use href="../img/sprite.svg#icon-puzzle-gallery-right" />
+        </svg>
+      </div>
+      <div class="swiper-button-prev">
+        <svg class="icon-gallery" width="20" height="20">
+          <use href="../img/sprite.svg#icon-puzzle-gallery-left" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+        
+      <section class="features-section" id="features-section">
+    <div class=" container">
+
+        <h2 class="features-title">Game Features</h2>
+        <p class="features-text">Match It is designed with both children and parents in mind, offering:</p>
+
+        <div class="features-wrap">
+
+            <div class="features-wrapper-list">
+                <ul class="features-list">
+                    <li class="features-item"><p class="features-item-text"> Over 2,000 hand-designed match-3 levels</p></li>
+                    <li class="features-item"><p class="features-item-text"> Dynamic tile mechanics and special effects</p></li>
+                    <li class="features-item"><p class="features-item-text"> Jigsaw puzzle collection system</p></li>
+                    <li class="features-item"><p class="features-item-text"> Offline mode with full functionality</p></li>
+                    <li class="features-item"><p class="features-item-text"> Custom soundtrack for a relaxed vibe</p></li>
+                    <li class="features-item"><p class="features-item-text"> Clean interface, minimal ads</p></li>
+                    <li class="features-item"><p class="features-item-text"> Free daily rewards and mini events</p></li>
+                </ul>
+            </div>
+
+            <div class="features-wrapper-img">
+                <picture>
+                    <source srcset="../img/game-feauters/desctop@2x.png 2x, ../img/game-feauters/desctop.png 1x" media="(min-width: 1200px)">
+                    <source srcset="../img/game-feauters/mobile@2x.png 2x, ../img/game-feauters/mobile.png 1x" media="(max-width: 1199px)">
+                    <img class="features-img" src="../img/game-feauters/mobile.png" alt="Game Features">
+                </picture>
+            </div>
+
+        </div>
+
+    </div>
+</section>
       
       
       
