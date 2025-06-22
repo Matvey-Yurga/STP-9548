@@ -55,9 +55,9 @@
             display: none;
         }
                 .icon-gallery {
-                    width: 20px !important;
-                    height: 20px !important;
                     fill: #fff;
+                    width: 20px !important;
+                        height: 20px !important;
                     }
                             .swiper-slide > img {
                                 width: 197px;
