@@ -1,5 +1,9 @@
 .how-to-play{
     padding: 37px 0 48px 0;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
 }
 .howtoPlay-ul{
     display: flex;
@@ -26,6 +30,8 @@
         font-size: 30px;
         color: #1c5fdc;
         padding: 48px 0 24px 0;
+        display: flex;
+            justify-content: flex-start;
 }
 .howToPlay-imgDesk {
     display: none;
