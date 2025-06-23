@@ -1,0 +1,104 @@
+.OfflinMode{
+    background-color: #153f66;
+    padding: 32px 0 50px 0;
+}
+.Offline-mode-h2{
+    font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        color: #fbe001;
+}
+.Offline-mode-p{
+    font-family: "Karla", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.5;
+text-align: center;
+color: #fffcdb;
+padding: 16px 0 22px 0;
+}
+.Offline-mode-p2{
+font-family: "Karla", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.5;
+text-align: center;
+color: #fffcdb;
+padding-top: 24px;
+}
+.Offline-mode-imageDesk{
+    display: none;
+}
+.OfflineMode-div{
+    display: block;
+}
+.div-offlineMode-img{
+    display: none;
+}
+@media only screen and (min-width: 1200px) {
+    .Offline-mode-image{
+        display: none;
+    }
+    .Offline-mode-imageDesk{
+        display: block;
+    }
+    .OfflineMode-div{
+        display: flex;
+    }
+    .div-offlineMode-img{
+        display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: 24px;
+    }
+    .OflineMode-imgP{
+        display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: row;
+            gap: 16px;
+    }
+    .OflineMode-p3{
+        font-weight: 400;
+            font-size: 24px;
+            line-height: 1.25;
+            color: #eac64e;
+    }
+    .div-OfflineModeDesk{
+        display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-left: 24px;
+    }
+    .OfflinMode{
+        padding: 32px 0 81px 0;
+    }
+        .Offline-mode-p{
+            padding: 24px 0 48px 0;
+            text-align: start;
+        }
+        .Offline-mode-p2{
+            padding-top: 48px;
+            text-align: start;
+        }
+        .Offline-mode-h2{
+            font-size: 48px;
+        }
+        .Offline-mode-imageDesk{
+            position: relative;
+        }
+        .OfflineMode-elem{
+            position: absolute;
+            background-image: url(../img/offline-online/position-elem.png);
+            width: 213px;
+                height: 222px;
+                background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    bottom: -115px;
+                    right: 689px;
+                    
+        }
+}
