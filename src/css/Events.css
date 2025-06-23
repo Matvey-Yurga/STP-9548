@@ -1,0 +1,134 @@
+/* ----------MOBILE VERSION---------- */
+.daily-section {
+    width: 100%;
+    padding: 16px 0 24px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.daily-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.daily-wrapper-list {
+    margin: 0 auto;
+}
+
+.daily-title {
+    font-size: 30px;
+    color: #1c5fdc;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.daily-text {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #153f66;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.daily-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.daily-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.daily-item-icon {
+    display: block;
+}
+
+.daily-item-text {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #153f66;
+}
+
+.daily-img-text {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #153f66;
+}
+
+.daily-picture {
+    margin-bottom: 24px;
+}
+
+/* ----------DESCTOP VERSION---------- */
+@media only screen and (min-width:1200px) {
+.daily-section {
+    width: 100%;
+    padding: 45px 0 112px;
+}
+
+.container {
+    padding: 0 80px;
+}
+
+.daily-wrap {
+    flex-direction: row;
+    gap: 98px;
+}
+
+.daily-wrapper-list {
+    width: 425px;
+    /* margin-left: 0 ; */
+}
+
+.daily-title {
+    font-size: 48px;
+    text-align: left;
+    margin: 0 0 24px;
+}
+
+.daily-text {
+    font-size: 24px;
+    line-height: 1.25;
+    color: #eac64e;
+    text-align: left;
+    margin: 0 0 64px;
+}
+
+.daily-item-text {
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+.daily-wrapper-img {
+    width: 506px;
+    height: 366px;
+}
+
+.daily-picture {
+    margin-bottom: 65px;
+}
+    
+.daily-img-text {
+    font-size: 24px;
+    line-height: 1.25;
+    color: #eac64e;
+    text-align: right;
+}
+}
