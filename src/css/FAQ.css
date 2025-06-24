@@ -1,0 +1,115 @@
+.faq-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .faq-item {
+    cursor: pointer;
+  width: 288px;}
+  
+  .faq-question {
+    border-radius: 25px;
+padding: 8px 16px 16px 16px;
+        background-color: #eac64e;
+        font-weight: 400;
+            font-size: 20px;
+            line-height: 1.5;
+            text-align: right;
+            color: #153f66;
+            display: flex;
+                align-items: flex-start;
+                justify-content: flex-end;
+                flex-direction: row;
+                margin-bottom: 16px;
+  }
+  
+  .faq-answer {
+    display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 16px;
+    color: #444;
+    background-color: #f4ead1;
+    border-radius: 0 0 50px 0;
+    padding: 0 24px 0 16px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            margin-top: 0;
+            position: relative;
+  }
+  .faq-h3 {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: right;
+      color: #153f66;
+    display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+  }
+  .faq-p{
+    font-family: "Karla", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: right;
+        color: #153f66;
+  }
+  .faq-item.active .faq-answer {
+    padding: 8px 24px 8px 16px;
+    max-height: 1000px; 
+    margin-top: 16px;
+  }
+  .faq-title{
+    font-weight: 400;
+        font-size: 30px;
+        color: #1c5fdc;
+        margin-bottom: 32px;
+
+  }
+  .faq-title-center{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+.faq-svg{
+    fill: #054c3a;
+    width: 12px;
+    height: 12px;
+    margin-left: 3px;
+}
+.faq-svg-div2{
+        position: absolute;
+        top: 13px;
+            right: 9px;
+}
+@media only screen and (min-width: 1200px) {
+  .faq-question{
+    width: 685px;
+    border-radius: 25px;
+      padding: 16px 48px;
+  }
+  .faq-item{
+    margin-left: 178px;
+  }
+    .faq-item.active .faq-answer {
+      padding: 16px 48px;
+      border-radius: 25px 25px 0 0;
+        width:685px;
+    }
+
+.faq-svg-div2{
+  top: 21px;
+    right: 33px;
+}
+.faq-question, .faq-h3{
+  font-size: 24px;
+}
+.faq-section {
+  padding: 0 0 65px 0 ;
+  background-color: #f9f9f9;
+}
+}
