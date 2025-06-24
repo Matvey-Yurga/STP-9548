@@ -1,0 +1,54 @@
+.contact-container{
+    padding: 49px 0 42px 0;
+}
+.contact-h2{
+    font-weight: 400;
+        font-size: 30px;
+        color: #1c5fdc;
+        padding-bottom: 15px;
+}
+.contact-list{
+    font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #153f66;
+        padding-bottom: 16px;
+}
+.contact-p-info{
+    font-family: "Karla", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.875;
+        color: #153f66;
+}
+.Contact-p{
+    font-family: "Karla", sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 1.875;
+        color: #153f66;
+}
+@media only screen and (min-width: 1200px) {
+   .contact-h2{
+        font-size: 48px;
+        color: #153f66;
+        padding-bottom: 24px;
+   } 
+   .contact-list{
+        font-size: 24px;
+        line-height: 1.25;
+        padding-bottom: 32px;
+
+   }
+   .contact-p-info{
+    font-size: 20px;
+        line-height: 1.5;
+   }
+   .Contact-p{
+    font-size: 20px;
+        line-height: 1.5;
+   }
+   .contact-container{
+    padding: 80px 0 ;
+   }
+}
