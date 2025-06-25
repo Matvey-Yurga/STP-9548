@@ -56,7 +56,21 @@
 .nav-header[data-visible="open"] {
     display: flex;
 }
+.close-btn {
+    border: none;
+    background-color: transparent;
 
+
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    
+}
+.header-iconX{
+    fill: #FFFFFF;
+    width: 48px;
+        height: 48px;
+}
 
 
 
@@ -129,4 +143,5 @@
                                             width: 291px;                             
                                              height: 171px;
                                                            }
+
         }
