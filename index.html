@@ -34,7 +34,7 @@
     <script type="module" crossorigin src="/STP-9548/index.js"></script>
     <link rel="modulepreload" crossorigin href="/STP-9548/assets/vendor-rDS0Pw7F.js">
     <link rel="stylesheet" crossorigin href="/STP-9548/assets/vendor-HdWFjXwp.css">
-    <link rel="stylesheet" crossorigin href="/STP-9548/assets/index-CLP6RSXo.css">
+    <link rel="stylesheet" crossorigin href="/STP-9548/assets/index-D3O7GDBU.css">
   </head>
   <body>
     <header class="main-header">
@@ -44,26 +44,30 @@
     </div>
     <button class="burger-svg" data-action="open">
       <svg class="svg-bur">
-        <use href="/STP-9548/assets/sprite-oG7VXzEG.svg#icon-mingcute_menu-fill"></use>
+        <use href="/STP-9548/assets/sprite-Dd4Cpsz9.svg#icon-mingcute_menu-fill"></use>
       </svg>
     </button>
     <nav class="nav-header" data-visible="close">
-      <button data-action="close" class="close-btn">✕</button>
+      <button data-action="close" class="close-btn">
+        <svg class="header-iconX">
+          <use href="../img/sprite.svg#icon-ion_close-header"></use>
+        </svg>
+      </button>
       <div class="header-nav navin">
         <a href="#home-section">Home</a>
         <a href="#aboutgame-section">About the Game</a>
-        <a href="#">How to Play</a>
-        <a href="#">Puzzle Gallery</a>
+        <a href="#HowtoPlay">How to Play</a>
+        <a href="#puzzeGallery">Puzzle Gallery</a>
         <a href="#features-section">Game Features</a>
         <a href="#global-section">Global Landmarks</a>
       </div>
       <div class="header-nav">
         <a href="#daily-section">Events</a>
-        <a href="#">Offline Mode</a>
+        <a href="#OfflineMode">Offline Mode</a>
         <a href="#whofor-section">Who It's For</a>
-        <a href="#">FAQ</a>
+        <a href="#FAQ">FAQ</a>
         <a href="#">Testimonials</a>
-        <a href="#">Contact</a>
+        <a href="#contact">Contact</a>
       </div>
     </nav>
   </div>
@@ -224,7 +228,7 @@
   </div>
 </section>
 
-      <section class="gallery-puzzle">
+      <section id="puzzeGallery" class="gallery-puzzle">
   <div class="container">
     <div class="galleryPuzzle">
       <h2 class="gallery-h2">Puzzle Gallery</h2>
@@ -437,7 +441,7 @@
 
 
 
-      <section class="OfflinMode">
+      <section id="OfflineMode" class="OfflinMode">
   <div class="container">
     <div class="OfflineMode-div">
       <div class="Offline-mode-imageDesk">
@@ -594,7 +598,7 @@
     </div>
     </div>
 </section>
-      <section class="faq-section">
+      <section id="FAQ" class="faq-section">
   <div class="container">
     <div class="faq-title-center">
       <h2 class="faq-title">FAQ</h2>
@@ -914,7 +918,7 @@
 
       
       <section class="container">
-  <div class="contact-container">
+  <div id="contact" class="contact-container">
     <h2 class="contact-h2">Contact</h2>
     <p class="contact-list">
       Have questions, feedback, or puzzle suggestions? <br />
