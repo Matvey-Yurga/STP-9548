@@ -71,7 +71,13 @@
     width: 48px;
         height: 48px;
 }
-
+.main-header{
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+}
 
 
 @media only screen and (min-width:1200px) {
@@ -97,14 +103,13 @@
                     align-items: flex-end;
                     justify-content: center;
                     flex-direction: column;
-                    gap: 24px;
                     position: static;
                         background-color: transparent;
                         height: 128px;
                         overflow: visible;
-
                         width: 100%;         
                             transform: none;
+                            padding: 0px;
                 }
                 .nav-header a {
                     font-weight: 400;
