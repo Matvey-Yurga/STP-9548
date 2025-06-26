@@ -34,7 +34,7 @@
     <script type="module" crossorigin src="/STP-9548/index.js"></script>
     <link rel="modulepreload" crossorigin href="/STP-9548/assets/vendor-rDS0Pw7F.js">
     <link rel="stylesheet" crossorigin href="/STP-9548/assets/vendor-HdWFjXwp.css">
-    <link rel="stylesheet" crossorigin href="/STP-9548/assets/index-BciwqeFq.css">
+    <link rel="stylesheet" crossorigin href="/STP-9548/assets/index-DOhBQ457.css">
   </head>
   <body>
     <header class="main-header">
@@ -241,54 +241,61 @@
       </p>
     </div>
     <div class="swiper-container-wrapper">
-      <div class="swiper">
+      <div data-swiper-next class="swiper-button-next">
+        <svg class="icon-gallery" width="20" height="20">
+          <use href="/STP-9548/assets/sprite-CW4UUZGU.svg#icon-puzzle-gallery-right" />
+        </svg>
+      </div>
+      <div data-swiper-prev class="swiper-button-prev">
+        <svg class="icon-gallery" width="20" height="20">
+          <use href="/STP-9548/assets/sprite-CW4UUZGU.svg#icon-puzzle-gallery-left" />
+        </svg>
+      </div>
+      <div
+        data-swiper
+        data-loop="true"
+        data-slides-per-view="1"
+        data-space-between="20"
+        data-breakpoints='{"1200":{"slidesPerView":4,"spaceBetween":26}}'
+        class="swiper"
+      >
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img
-              src="../img/puzzle-gallery/desctop-four.png"
+              src="/STP-9548/assets/desctop-four-B8515Y1I.png"
               alt="galleryImg"
-              srcset="../img/puzzle-gallery/desctop-four.png 1x, ../img/puzzle-gallery/desctop-four@2x.png 2x"
+              srcset="/STP-9548/assets/desctop-four-B8515Y1I.png 1x, /STP-9548/assets/desctop-four@2x-Db9szgy1.png 2x"
             />
           </div>
           <div class="swiper-slide">
             <img
-              src="../img/puzzle-gallery/desctop-one.png"
+              src="/STP-9548/assets/desctop-one-6GnvD5SI.png"
               alt="galleryImg"
-              srcset="../img/puzzle-gallery/desctop-one.png 1x, ../img/puzzle-gallery/desctop-one@2x.png 2x"
+              srcset="/STP-9548/assets/desctop-one-6GnvD5SI.png 1x, /STP-9548/assets/desctop-one@2x-D2aOoU14.png 2x"
             />
           </div>
           <div class="swiper-slide">
             <img
-              src="../img/puzzle-gallery/desctop-three.png"
+              src="/STP-9548/assets/desctop-three-CxTIidoE.png"
               alt="galleryImg"
-              srcset="../img/puzzle-gallery/desctop-three.png 1x, ../img/puzzle-gallery/desctop-three@2x.png 2x"
+              srcset="/STP-9548/assets/desctop-three-CxTIidoE.png 1x, /STP-9548/assets/desctop-three@2x-D5ncypYb.png 2x"
             />
           </div>
           <div class="swiper-slide">
             <img
-              src="../img/puzzle-gallery/desctop-two.png"
+              src="/STP-9548/assets/desctop-two-CyOSQzji.png"
               alt="galleryImg"
-              srcset="../img/puzzle-gallery/desctop-two.png 1x, ../img/puzzle-gallery/desctop-two@2x.png 2x"
+              srcset="/STP-9548/assets/desctop-two-CyOSQzji.png 1x, /STP-9548/assets/desctop-two@2x-B2v39jwZ.png 2x"
             />
           </div>
           <div class="swiper-slide">
             <img
-              src="../img/puzzle-gallery/mobile.png"
+              src="/STP-9548/assets/mobile-BH708Jng.png"
               alt="galleryImg"
-              srcset="../img/puzzle-gallery/mobile.png 1x, ../img/puzzle-gallery/mobile@2x.png 2x"
+              srcset="/STP-9548/assets/mobile-BH708Jng.png 1x, /STP-9548/assets/mobile@2x-Bm3Lw39B.png 2x"
             />
           </div>
         </div>
-      </div>
-      <div class="swiper-button-next">
-        <svg class="icon-gallery" width="20" height="20">
-          <use href="../img/sprite.svg#icon-puzzle-gallery-right" />
-        </svg>
-      </div>
-      <div class="swiper-button-prev">
-        <svg class="icon-gallery" width="20" height="20">
-          <use href="../img/sprite.svg#icon-puzzle-gallery-left" />
-        </svg>
       </div>
     </div>
   </div>
@@ -603,51 +610,52 @@
     <div class="faq-title-center">
       <h2 class="faq-title">FAQ</h2>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         Can I play Match Journey without an internet connection?
         <div class="faq-svg-div">
           <svg class="faq-svg">
-            <use href="../img/sprite.svg#icon-button-fag-bootom"></use>
+            <use href="/STP-9548/assets/sprite-CW4UUZGU.svg#icon-button-fag-bootom"></use>
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
-            <use href="../img/sprite.svg#icon-button-fag-top"></use>
+            <use href="/STP-9548/assets/sprite-CW4UUZGU.svg#icon-button-fag-top"></use>
           </svg>
         </div>
         <h3 class="faq-h3">
           Can I play Match Journey without an internet connection?
         </h3>
         <p class="faq-p">
-          Each level you complete adds puzzle pieces toward your next landmark.
-          Once you’ve earned all the pieces for a specific location, the full
-          image unlocks in your Puzzle Gallery. You can revisit the gallery
-          anytime to view completed puzzles or reread the facts. Some puzzles
-          are tied to events or achievements, so don’t forget to check for daily
-          or weekly missions. Puzzle collection is not timed—players progress at
-          their own pace. The goal is to enjoy both the game and the journey of
-          exploration.
+          Yes, Match Journey is fully functional offline. You can complete
+          levels, unlock puzzles, and collect rewards even when you're not
+          connected to Wi-Fi or data. This makes it perfect for travel,
+          commuting, or anytime you’re away from a reliable signal. Your
+          progress is saved locally and automatically synced when you go back
+          online. You won’t lose any of your puzzle pieces or boosters. Just
+          make sure you open the game online once in a while to get updates and
+          join timed events. Offline play has been optimized for smooth,
+          uninterrupted gaming.
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         How do I collect jigsaw puzzles of landmarks?
         <div class="faq-svg-div">
           <svg class="faq-svg">
-            <use href="../img/sprite.svg#icon-button-fag-bootom"></use>
+            <use href="/STP-9548/assets/sprite-CW4UUZGU.svg#icon-button-fag-bootom"></use>
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
-            <use href="../img/sprite.svg#icon-button-fag-top"></use>
+            <use href="/STP-9548/assets/sprite-CW4UUZGU.svg#icon-button-fag-top"></use>
           </svg>
         </div>
         <h3 class="faq-h3">How do I collect jigsaw puzzles of landmarks?</h3>
@@ -663,8 +671,9 @@
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         Are there in-app purchases?
         <div class="faq-svg-div">
           <svg class="faq-svg">
@@ -672,8 +681,7 @@
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
             <use href="../img/sprite.svg#icon-button-fag-top"></use>
@@ -691,8 +699,9 @@
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         What age group is Match Journey suitable for?
         <div class="faq-svg-div">
           <svg class="faq-svg">
@@ -700,8 +709,7 @@
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
             <use href="../img/sprite.svg#icon-button-fag-top"></use>
@@ -720,8 +728,9 @@
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         How often do you add new puzzles or events?
         <div class="faq-svg-div">
           <svg class="faq-svg">
@@ -729,8 +738,7 @@
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
             <use href="../img/sprite.svg#icon-button-fag-top"></use>
@@ -748,8 +756,9 @@
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         What if I get stuck on a level?
         <div class="faq-svg-div">
           <svg class="faq-svg">
@@ -757,8 +766,7 @@
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
             <use href="../img/sprite.svg#icon-button-fag-top"></use>
@@ -776,8 +784,9 @@
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         Can I replay earlier levels or puzzles?
         <div class="faq-svg-div">
           <svg class="faq-svg">
@@ -785,8 +794,7 @@
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
             <use href="../img/sprite.svg#icon-button-fag-top"></use>
@@ -804,8 +812,9 @@
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         Do I lose progress if I uninstall the game?
         <div class="faq-svg-div">
           <svg class="faq-svg">
@@ -813,8 +822,7 @@
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
             <use href="../img/sprite.svg#icon-button-fag-top"></use>
@@ -831,8 +839,9 @@
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         Can I play on multiple devices?
         <div class="faq-svg-div">
           <svg class="faq-svg">
@@ -840,8 +849,7 @@
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
             <use href="../img/sprite.svg#icon-button-fag-top"></use>
@@ -858,8 +866,9 @@
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         Are there ads in the game?
         <div class="faq-svg-div">
           <svg class="faq-svg">
@@ -867,8 +876,7 @@
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
             <use href="../img/sprite.svg#icon-button-fag-top"></use>
@@ -885,8 +893,9 @@
         </p>
       </div>
     </div>
-    <div class="faq-item">
-      <div class="faq-question">
+
+    <div class="faq-item" data-faq-item>
+      <div class="faq-question" data-faq-question>
         How can I submit feedback or report bugs?
         <div class="faq-svg-div">
           <svg class="faq-svg">
@@ -894,8 +903,7 @@
           </svg>
         </div>
       </div>
-
-      <div class="faq-answer">
+      <div class="faq-answer" data-faq-answer>
         <div class="faq-svg-div2">
           <svg class="faq-svg">
             <use href="../img/sprite.svg#icon-button-fag-top"></use>
@@ -905,7 +913,7 @@
         <p class="faq-p">
           We welcome your feedback and work hard to improve the game. You can
           submit feedback directly from the app settings, or email us at
-          info@educationpu.space Please include details about your device,
+          info@educationpu.space. Please include details about your device,
           version number, and what issue you encountered. Screenshots are
           especially helpful. We review every message and often incorporate
           player suggestions into updates. Your input helps us create a better
