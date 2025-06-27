@@ -128,7 +128,7 @@ body {
 </head>
 
 <body>
-<section class="policy-section id=cookies-section">
+<section class="policy-section visually-hidden" id="cookies-section">
     <div class="container">
         <div class="policy-wrapper-link">
             <a href="../index.html">
@@ -192,4 +192,16 @@ body {
     </div>
     </div>
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const cookiesLink = document.querySelector('a[href="/partials/footer-cookies.html"]');
+        const cookiesSection = document.getElementById('cookies-section');
+        if (cookiesLink && cookiesSection) {
+            cookiesLink.addEventListener('click', function (event) {
+                event.preventDefault();
+                cookiesSection.classList.remove('visually-hidden');
+            });
+        }
+    });
+</script>
 </body>

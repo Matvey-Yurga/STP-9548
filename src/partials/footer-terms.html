@@ -129,7 +129,7 @@ body {
 </style>
 </head>
 <body>
-<section class="policy-section id=terms-section">
+<section class="policy-section visually-hidden" id="terms-section">
     <div class="container">
         <div class="policy-wrapper-link">
             <a href="../index.html">
@@ -202,4 +202,16 @@ body {
     </div>
     </div>
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const termsLink = document.querySelector('a[href="/partials/footer-terms.html"]');
+        const termsSection = document.getElementById('terms-section');
+        if (termsLink && termsSection) {
+            termsLink.addEventListener('click', function (event) {
+                event.preventDefault();
+                termsSection.classList.remove('visually-hidden');
+            });
+        }
+    });
+</script>
 </body>
