@@ -1,0 +1,78 @@
+.policy-section {
+    background-color: #fffcdb;
+    width: 100%;
+    padding: 56px 0 80px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.policy-wrapper-link {
+    margin-bottom: 60px;
+}
+
+.policy-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 17px;
+}
+
+.policy-icon-svg {
+    fill: none;
+    stroke: #054c3a;
+    stroke-width: 2px;
+}
+
+.policy-svg-text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #153f66;
+}
+
+.policy-svg-text:hover {
+    color: #eac64e;
+}
+
+.privacy-container {
+    width: 100%;
+}
+
+.policy-title {
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #153f66;
+    margin-bottom: 40px;
+}
+
+.policy-text {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #153f66;
+}
+
+.policy-text-bolder {
+    font-weight: 800;
+}
+
+@media only screen and (min-width:1200px) {
+    .policy-section {
+        padding: 60px 0 80px;
+    }
+
+    .container {
+        padding: 0 80px;
+    }
+
+    .policy-title {
+        font-size: 48px;
+    }
+}
