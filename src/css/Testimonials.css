@@ -1,0 +1,111 @@
+.icon-testi-group{
+    fill: #EAC64E;
+    width: 14px;
+    height: 13px;
+}
+.testi-contn-icon{
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 4px;
+}
+.testi-p{
+    font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        color: #153f66;
+        margin-top: 4px;
+        margin-bottom: 12px;
+}
+.testi-div-con{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        position: relative;
+}
+.testi-h2{
+    font-weight: 400;
+        font-size: 30px;
+        color: #1c5fdc;
+        margin-bottom: 24px;
+        align-items: center;
+}
+.testi-p-svg{
+    border: 3px solid #eac64e;
+        border-radius: 0 0 50px 0;
+        padding: 8px 12px 32px 12px;
+        font-family: "Karla", sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 1.5;
+            color: #153f66;
+            margin-top: 16px;
+            width: 288px;
+}
+
+.icon-testi-VectorD{
+    fill: #eac64e;
+    width: 65px;
+    height: 42px;
+
+}
+.testi-contn-VectorD{
+    position: absolute;
+    top: 150px;
+        left: 16px;
+}
+.icon-testiVecto-left,
+.icon-testiVecto-right{
+    width: 48px;
+    height: 48px;
+    fill: #eac64e;
+}
+.icon-testi-Ledt-right{
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 48px;
+        margin-top: 32px;
+}
+
+.testi-fidb2{
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+.testi-fidb2-1 {
+    display: none;
+}
+.testi-contn-VectorF {
+    position: absolute;
+    top: 150px;
+        left: 0;
+}
+@media only screen and (min-width:1200px) {
+    .testi-contDesk{
+        display: flex;
+        gap: 56px;
+
+    }
+        .testi-p-svg {
+            width: 420px;
+        }
+        .testi-fidb2{
+            display: flex;
+            flex-direction: column;
+                align-items: center;
+        }
+        .testi-contn-VectorD{
+            top: 150px;
+                left: 70px
+        }
+                                .testi-contn-VectorF{
+                                    position: absolute;
+                                    top: 150px;               
+                                    right: 426px;
+                                    left: inherit;
+                                }
+}

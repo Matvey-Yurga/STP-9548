@@ -20,6 +20,7 @@
             justify-content: flex-start;
             flex-direction: column;
             gap: 16px;
+            position: relative;
     }
     .gallery-h2{
         font-weight: 400;
@@ -43,13 +44,22 @@
     }
                 .swiper-button-prev,
                 .swiper-button-next {
-                            top: calc(50% + 126px) !important;
+                            top: calc(50% + 122px) !important;
                             transform: translateY(-50%) !important;
                             width: 40px !important;
                             height: 40px !important;
                             margin-top: 0 !important;
                             color: inherit !important;
-                        }                         
+                            overflow: visible !important;
+                        }  
+                                                .swiper-button-prev{
+                                                    position: absolute !important;
+                                                    left: 15px !important;
+                                                }
+                                    .swiper-button-next{
+                                        position: absolute !important;
+                                        right: 15px !important;
+                                    }
         .swiper-button-next::after,
         .swiper-button-prev::after {
             display: none;
@@ -62,9 +72,6 @@
                             .swiper-slide > img {
                                 width: 197px;
                                     height: 350px;                     }
-                                                                        .swiper-container-wrapper {
-                                                                            --swiper-navigation-sides-offset: 8px;
-                                                                                    }
                                                                                     .br-gallery{
                                                                                         display: none;
                                                                                     }
@@ -88,9 +95,20 @@ fill: #fff;                                                       }
 .swiper-container-wrapper{
     max-width: 860px;
     margin: 0 auto;
-    --swiper-navigation-sides-offset: 112px
+
 }
 .br-gallery{
     display: inline;
+}
+.swiper-button-prev {
+    left: 124px !important;
+}
+
+.swiper-button-next {
+    right: 124px !important;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    top: calc(50% + 135px) !important;
 }
  }
