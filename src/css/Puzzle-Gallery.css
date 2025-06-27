@@ -1,8 +1,6 @@
-.swiper-slide img{
+.imeges-Gallery{
     border: 1px solid #fff;
         border-radius: 15px;
-        width: 197px;
-        height: 350px;
 
 }
 .swiper-slide {
@@ -68,10 +66,7 @@
                     fill: #fff;
                     width: 20px !important;
                         height: 20px !important;
-                    }
-                            .swiper-slide > img {
-                                width: 197px;
-                                    height: 350px;                     }
+                                         }
                                                                                     .br-gallery{
                                                                                         display: none;
                                                                                     }
