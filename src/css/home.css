@@ -1,12 +1,15 @@
 /* ----------MOBILE VERSION---------- */
 .home-section {
     width: 100%;
-    background-color: #fffcdb;
+    background: #fffcdb url('../img/welcome-journey/mobile.png') no-repeat top / 320px 568px;
     padding: 0 0 58px;
 }
 
-.container {
-    padding: 0;
+/* ----------RETINA---------- */
+@media (min-resolution: 2x) {
+    .home-section {
+        background-image: url('../img/welcome-journey/mobile@2x.png');
+    }
 }
 
 /* -----CLOSE TITLE IMG BUTTON----- */
@@ -21,19 +24,8 @@
 .home-wrapper-background {
     width: 100%;
     height: 568px;
-    background-image: url('../img/welcome-journey/mobile.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     padding-top: 442px;
     margin-bottom: 50px;
-}
-
-/* ----------RETINA---------- */
-@media (min-resolution: 2x) {
-    .home-wrapper-background {
-        background-image: url('../img/welcome-journey/mobile@2x.png');
-    }
 }
 
 /* -----BUTTON----- */
@@ -91,6 +83,7 @@
 /* ----------DESCTOP VERSION---------- */
 @media only screen and (min-width: 1200px) {
 .home-section {
+    background-image: none;
     padding: 68px 0 64px;
 }
 
