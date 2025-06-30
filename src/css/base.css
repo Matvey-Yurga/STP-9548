@@ -19,7 +19,7 @@ body {
   font-family: inherit;
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   margin: 0;
 }
@@ -28,7 +28,9 @@ body {
     scroll-padding-top: 128px;
   }
 }
-
+html {
+  box-sizing: border-box;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
